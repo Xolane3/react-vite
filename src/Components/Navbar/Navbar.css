@@ -2,7 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    padding: 10px 50px; /* Use padding instead of large margins */
+    width: 100%; /* Ensure it spans the full width */
+    box-sizing: border-box; 
+    z-index: 10; /* Ensure it stays above content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow */
 }
 .nav-logo {
     width: 100px; /* Adjust as needed for size */
@@ -59,7 +63,10 @@
 }
 @media(max-width:768px){
     .navbar{
-        margin: 20px 50px;
+        padding: 10px 20px;
+    }
+    .nav-logo {
+        margin: auto; /* Center the logo */
     }
     .nav-connect{
         display: none;
