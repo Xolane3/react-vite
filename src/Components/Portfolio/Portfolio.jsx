@@ -13,10 +13,10 @@ const Portfolio = (props) => {
                     return <img key={index} src={work.w_image} alt="" className='my-work'/>
                 })}
             </div>
-            <div className="mywork-showmore">
+            {/* <div className="mywork-showmore">
                 <p>Show More</p>
                 <img src={arrow_right} alt="" className='more'/>
-            </div>
+            </div> */}
         </div>
     )
 }

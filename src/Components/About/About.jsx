@@ -11,9 +11,9 @@ const About = () => {
         {/* <img src={theme_parten} alt="" />  */}
       </div>
       <div className="about-sections">
-        <div className="about-left">
+        {/* <div className="about-left">
            <img src={profile_image} alt="" className="prof"/> 
-        </div>
+        </div> */}
         <div className="about-right">
           <div className="about-paragraph">
             <p>
